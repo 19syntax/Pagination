@@ -24,14 +24,20 @@ body{
     display: flex;
     gap: 1rem;
 }
-.page-no div,
+.page-no li{
+    list-style: none;
+}
+.page-no li a,
 .action-btn{
-    background-color: rgba(209, 209, 209, 0.555);
+    background-color: rgba(209, 209, 209, 0.76);
+    color: black;
     border-radius: 7px;
     padding: 0.45em 1em;
     transition: 0.3s ease-in;
+    text-decoration: none;
+    cursor: pointer;
 }
-.page-no div:hover,
+.page-no li a:hover,
 .action-btn:hover{
     background-color: rgb(63, 84, 202);
     color: white;

@@ -24,10 +24,7 @@ body{
     display: flex;
     gap: 1rem;
 }
-.page-no li{
-    list-style: none;
-}
-.page-no li a,
+.page-no a,
 .action-btn{
     background-color: rgba(209, 209, 209, 0.76);
     color: black;
@@ -37,8 +34,12 @@ body{
     text-decoration: none;
     cursor: pointer;
 }
-.page-no li a:hover,
+.page-no a:hover,
 .action-btn:hover{
+    background-color: rgb(63, 84, 202);
+    color: white;
+}
+.page-no .active{
     background-color: rgb(63, 84, 202);
     color: white;
 }
